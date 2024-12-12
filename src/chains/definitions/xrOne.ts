@@ -11,5 +11,11 @@ export const xrOne = /*#__PURE__*/ defineChain({
   rpcUrls: {
     default: { http: ['https://xr-one.calderachain.xyz/http'] },
   },
+  blockExplorers: {
+    default: {
+      name: 'Blockscout',
+      url: 'https://xr-one.calderaexplorer.xyz/',
+    },
+  },
   testnet: false,
 })
