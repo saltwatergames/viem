@@ -9,7 +9,10 @@ export const xrOne = /*#__PURE__*/ defineChain({
     symbol: 'XR1',
   },
   rpcUrls: {
-    default: { http: ['https://xr1.calderachain.xyz/http'], ws: ['wss://xr1.calderachain.xyz/ws'] },
+    default: {
+      http: ['https://xr1.calderachain.xyz/http'],
+      ws: ['wss://xr1.calderachain.xyz/ws'],
+    },
   },
   blockExplorers: {
     default: {
